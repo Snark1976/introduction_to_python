@@ -1,0 +1,1 @@
+print((lambda a, b, f: f(a, b, f))(int(input()), int(input()), lambda x, y, f:int(y < 1) or x * f(x, y - 1, f)))
