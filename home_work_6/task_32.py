@@ -1,0 +1,2 @@
+print(*(lambda min, max, lst: [i for i in range(len(lst)) if min < lst[i] < max])(int(input()), int(input()), list(map(int, input().split()))))
+#-5 9 0 3 -1 -2 1 4 -2 10 2 0 -9 8 10 -9 0 -5 -5 7 -> 1 9 13 14 19
